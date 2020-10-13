@@ -10,7 +10,7 @@ def sacarAlerta():
 Button(ventana, text='Mostrar alerta!!!', command=sacarAlerta).pack()
 
 def salir(nombre):
-    resultado = MessageBox.askquestion('Salir', 'H¿Quieres continuar ejecutando la aplicación?')
+    resultado = MessageBox.askquestion('Salir', '¿Quieres continuar ejecutando la aplicación?')
 
     if resultado != 'yes':
         MessageBox.showinfo('Chao!!', f'Adiós {nombre}')
